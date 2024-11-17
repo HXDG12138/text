@@ -1,0 +1,10 @@
+1.创建仓库
+2.进入上传的文件夹，右键打开Git Bash Here
+3.输入git init进行初始化后会出现一个.git文件夹，输入git add *
+4.输入git commit -m "first commit"（出现问题则进入.git里的config文件，添加
+[user]
+	email=1485744265@qq.com（注册Github邮箱）
+	name=HXDG12138（GitHub名称）
+添加完成之后再次输入git commit -m "first commit"（"first commit"为仓库文件的信息））
+5.输入git remote add origin GitHub仓库的网址（进入仓库点击code，https下的地址）
+6.输入git push -u origin master（放置在名为master的分支下）
